@@ -21,7 +21,7 @@
     <ul>
         {{#each posts as |post|}}
         <li>
-            {{> post-info post}}
+            {{> postInfo post}}
             <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
         </li>
         {{/each}}
@@ -29,4 +29,4 @@
 </section>
 {{/if}}
 
-<script src="/javascript/add-post.js"></script>
+<script src="/js/addPost.js"></script>
