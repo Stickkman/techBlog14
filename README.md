@@ -31,8 +31,7 @@ ScreenShots Below
 2. If you need to change database logins, users, etc, edit the .env file after install.
 3. Open up the CLI and type 'mysql -u root -p' to login to mysql.
 4. Type 'source./db/schema.sql' to create the database.
-5. Type 'use techblog_db' to select the database for use.
-6. To automatically seed the database with sample data type 'npm run seed'
+6. To automatically seed the database with sample data type 'npm run seeds'
 7. Type 'npm start' to start the server.
 
 !You can also goto the HEROKU link found below to run this app!
@@ -40,7 +39,9 @@ ScreenShots Below
 ## Usage
 
 This app can be run locally by following the above installation instructions OR
-by going to the HEROKU link found below.
+by going to the HEROKU link found below.  Also for testing purposes for logins, 
+you can use 'dionsanders' for username, and 'password123' for the password, or
+simply look in the 'userSeeds.js'. 
 
 ## License
 This license is covered under the MIT
